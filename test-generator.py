@@ -154,7 +154,7 @@ def write_html_files(qanda):
 
 def process_questions():
     mytestdir1 = "test1"
-    dirs1 = sorted(Path('./{}'.format(mytestdir1)).glob('*'))
+    dirs1 = sorted(Path('./{}'.format(mytestdir1)).glob('*'))[:100]
     if mydebug:
         print("DEBUG: process_questions(): start")
     all_questions_and_answers = []
