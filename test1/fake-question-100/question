@@ -1,0 +1,1 @@
+GSSAPI Perlbindings version 0.28GSSAPI Perl extension for usingGSSAPI CBindings as described in RFC 2744.The module is based on GSSAPI 0.13 written by Philip GuentherTesting and develop

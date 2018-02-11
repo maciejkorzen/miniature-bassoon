@@ -1,0 +1,1 @@
+GENERALThis package contains the firmware binaries for each loader programincluded in alsatools package. The firmware data can be used by eachALSA firmware loader program like vxloader, or passed through theho

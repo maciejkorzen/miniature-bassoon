@@ -1,0 +1,1 @@
+head1 EXAMPLEShead2 Running Tests in Multiple LanguagesIf you have ruby installed in C/usr/bin/ruby, and also haveCTest::WWW::Mechanize installed, you can cd into Cexamples/ (the directorywhere 

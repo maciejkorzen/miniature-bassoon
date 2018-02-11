@@ -1,0 +1,1 @@
+AbstractThis is a filesystem client based on the SSH File Transfer Protocol.Since most SSH servers already support this protocol it is very easyto set up: i.e. on the server side there's noth

@@ -1,0 +1,1 @@
+DBD::mysql A Perl5 Database Interface to the MySQL databaseThe driver installation is described in INSTALL.htmlIn short: If you are using OS X Please see the excellent post at https://discussions.apple.com/threa

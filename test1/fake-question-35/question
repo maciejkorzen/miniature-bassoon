@@ -1,0 +1,1 @@
+This directory contains various modules for Emacs support.To make the modules available to Emacs, you should add this directoryto your loadpath, and then require the modules you want. This 

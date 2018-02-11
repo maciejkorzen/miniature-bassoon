@@ -1,0 +1,1 @@
+NAME constant Perl pragma to declare constantsDESCRIPTION This pragma allows you to declare constants at compiletime. When a constant is used in an expression, Perl replaces it with its value at compile ti

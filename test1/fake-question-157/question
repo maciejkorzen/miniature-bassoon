@@ -1,0 +1,1 @@
+plymouth graphical boot animation and loggerPlymouth is an application that runs very early in the boot process(even before the root filesystem is mounted!) that provides a graphicalboot anima

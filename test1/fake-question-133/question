@@ -1,0 +1,1 @@
+`time' is a program that measures many of the CPU resources, such astime and memory, that other programs use. The GNU version can formatthe output in arbitrary ways by using a printfstyle format stri

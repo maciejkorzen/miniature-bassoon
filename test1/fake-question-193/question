@@ -1,0 +1,1 @@
+Certmonger is primarily concerned with getting you or your systemenrolled with a certificate authority (CA) and keeping you enrolled.To do this, the certmonger daemon runs in the background, takingguidan

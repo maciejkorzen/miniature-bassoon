@@ -1,0 +1,1 @@
+InstallYou will need an ANSI C compiler (like gcc) to compile this package.Just type `make', followed by `make install'.HistoryThe main difference with version 1.0 by Paul Vixie is that thisversion wil
