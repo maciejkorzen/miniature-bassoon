@@ -1,1 +1,1 @@
- () -140-2 . . . - --- - - --- . '.' - . '.' . ( ): 0 - 2 - 3 - 4 - , 5 - 6,7 - . . - '.' . - - --- . 64,} . '.' - . '.' 64,} . '.' . ( ): 0 - 1 - 2 - 3 - 4 - , 5 - 10 - - . 20 - - . "", . "", . 3 . . -256 .
+INSTALLSwaks is designed to be a self contained script. It should run on any systemthat has Perl installed, although its capabilites may be limited by whichmodules are installed.To get a 

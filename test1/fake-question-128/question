@@ -1,1 +1,1 @@
- (1) (#) $: , 1.44 20110324 13:03:39 $ : .. : :..-: .: . ! 5. ' ( )(1) , (1) . '
+INTRODUCTIONThis module implements a Perl interface to the Gnome libxml2 library whichprovides interfaces for parsing and manipulating XML files. This module allowsPerl programmers to make use o

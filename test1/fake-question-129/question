@@ -1,1 +1,1 @@
- 20070531 ---- () . 393 :..3 . . : , -8, -16, -16, -32, -32, 
+gnomekeyring is a program that keep password and other secrets forusers. The library libgnomekeyring is used by applications to integratewith the gnome keyring syste

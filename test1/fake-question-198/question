@@ -1,1 +1,1 @@
-: ++-3 . '' . .
+aboutsocat is a relay for bidirectional data transfer between two independent datachannels. Each of these data channels may be a file, 

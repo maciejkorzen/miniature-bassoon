@@ -1,1 +1,1 @@
-(#) 1.30 970321 19:27:21 7.6 . . , . . . . (.., ..), - , . ... ( ): --. ------------
+ README for GNU development toolsThis directory contains various GNU compilers, assemblers, linkers, debuggers, etc., plus their support routines, definitions, and documentation.

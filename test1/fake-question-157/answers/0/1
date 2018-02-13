@@ -1,1 +1,1 @@
- 0.1 ' 2. 3 29 1994 ' - ( -) . ( ), 2.3 .- - ( ) (). - - - - , 70 . - ( 4.0) . , 2 .3. 5.2.1 2004 . ' ( ) 
+IO::Tty and IO ::Pty provide an interface t o pseudo tty's To build this distribution, run perl Make

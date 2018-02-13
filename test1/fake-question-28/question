@@ -1,1 +1,1 @@
-: ...--() 1999-2012 ( .) ::-
+ Compile with:makemake allshared Compile and Run test suite with:make check Install all important files with:make install Cleanup:make clean Full cleanup, incl. .in real convertion 

@@ -1,1 +1,1 @@
- - . , :$ .$ # , $ .$ .$ # , :':.'. - :':..-'. :':.'. .. . . .
+General InformationFUSE (Filesystem in Userspace) is a simple interface for userspaceprograms to export a virtual filesystem to the Linux kernel. FUSEalso aims to provide a secure method for non privileged users tocreat

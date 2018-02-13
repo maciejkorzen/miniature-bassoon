@@ -1,1 +1,1 @@
-, , - - . - (2) (2). ' ' '.------------ , : - (:..-) (:..) . ----------
+NAME HTTP::Date date conversion routinesSYNOPSIS use HTTP::Date; $string time2str($time); # Format as GMT ASCII time $time str2time($stri

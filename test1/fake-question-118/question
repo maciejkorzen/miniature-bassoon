@@ -1,1 +1,1 @@
- 2.10.95 (2.11 5) 2013-08-31 . :.. .2.10.95 (2.11 5) (2): 2.10.94 (2.11 4) (25): 64906 - () 32 -1 () - . . 67809 - 67845 - 16818 - 68340 - 63399 - , , , - '' 68587 - . . . . (2): 2.10.93 (2.11 3) (10): 62980 - : . 633
+GNU PartedGNU Parted is a program for manipulating partition tables.WARNING: USING PARTED TO PERFORM FILE SYSTEM OPERATIONS IS NO LONGER SUPPORTEDParted (post2.4) no longer has the ability to 

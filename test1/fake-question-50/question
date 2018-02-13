@@ -1,1 +1,1 @@
- 2 - . 2 . . - .. : :.2 :..2 : :.2. :.2. 2: -. :..- 2 , : -. :..- 2-.. (- ) :.2- - , -: -. :..- 7 2012 : :..-.22.
+IO::Socket::SSL is a class implementing an object orientedinterface to SSL sockets. The class is a descendent ofIO::Socket::INET.In order to use IO::Socket::SSL you need to have Net::SSLeayv1.21 or newer ins

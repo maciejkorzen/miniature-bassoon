@@ -1,1 +1,1 @@
- $: , 1.8 20030606 22:42:34 $ , . . 7.2: 7.2 . ' . 8.1: ( ) . 4.7: . ---... .: , . , - . , - . , ---- .. :..20020200010. ' . .
+Config::GrammarConfig::Grammar is a Perl module to parse configuration files byfollowing a grammar,

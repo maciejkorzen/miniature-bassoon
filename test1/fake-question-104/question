@@ -1,1 +1,1 @@
- :: 2.40 () 1998-2000 . . ; . ' , . 5.004 1.95.0 . :. '-' .: - 6.06: 1- ::. 
+NAME ExtUtils::ParseXS converts Perl XS code into C codeSYNOPSIS use ExtUtils::ParseXS qw(processfile); processfile( filena

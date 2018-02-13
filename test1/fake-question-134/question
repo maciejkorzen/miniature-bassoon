@@ -1,1 +1,1 @@
- :: - :: (); # - - $ '1', 1.000, '', , '-8859-1', '', 3000, '2', 0.950, '', '', '-', '', 400, '3', 0.3, '', , , , 43555, ; ($, $); $ ($); ---11
+The elfutils project provides libraries and tools for ELF files and DWARF data.The project home is http:elfutils.orgReleases are published at ftp:sourceware.orgpubelfutilsWhich can also be

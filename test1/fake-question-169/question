@@ -1,1 +1,1 @@
- -- . () 2002-2013 . , , . . . , . ( , , , ). . , , . , , -., :..-. , :... - .---------------------------------------------------------------------- , , .
+Fatal and autodieThis distribution provides 'autodie', a lexical equivalent of'Fatal'. This distribution REQUIRES Perl 

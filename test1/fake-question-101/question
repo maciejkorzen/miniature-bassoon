@@ -1,1 +1,1 @@
- 2 - 2 2003-09-15 .2 2 
+P11KITProvides a way to load and enumerate PKCS#11 modules. Provides a standardconfiguration setup for installing PKCS#11 modules in such a way that they're

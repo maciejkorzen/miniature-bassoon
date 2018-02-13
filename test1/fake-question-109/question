@@ -1,1 +1,1 @@
---------------------------------------------------------------------------------- () 1998-2011,2012 , . ---- ---- , , ---- ( ---- 
+Sample programs callable through gitshell. Place a directory named'gitshellcommands' in the home directory of a user whose shell isgitshell. Then anyone logging in as that user will be able to runexecutable
