@@ -113,17 +113,37 @@ def print_question_with_answers(qanda):
     print("with solution:")
     print(tabulate(tab2, headers=['Question', 'Answer1', 'Answer2', 'Answer3', 'Answer4', 'Answer5']))
 
+def we_have_long_answer(answers):
+    if mydebug:
+        print("DEBUG: we_have_long_answer():({})".format(answers))
+    for a0 in answers:
+        txt0 = a0[1].strip()
+        txt1 = re.sub('<[^>]+>', '', txt0)
+        if mydebug:
+            print("DEBUG: we_have_long_answer(): before:({}) after:({})".format(txt0, txt1))
+        if len(txt1) > 60:
+            return True
+    return False
+
 def generate_html_row_code(cnt, data):
-    ret1 = "\t<tr>\n\t\t<td rowspan=\"2\">{}</td>\n".format(cnt)
+    ret1 = "\t<tr>\n\t\t<td rowspan=\"2\" valign=\"top\">{}</td>\n".format(cnt)
     ret1 += "\t<td><b>{}</b></td>\n</tr>\n<tr>\n<td>\n\t<table border=\"0\" width=\"100%\" class=\"mytable1\">\t<tr class=\"mytr1\">".format(data['question'])
     ret2 = ret1
+    long_answer_addition1 = ""
+    td_width_text = ' width="20%"'
+    #additional_breaks = "<br /><br />"
+    additional_breaks = ""
+    if we_have_long_answer(data['answers']):
+        long_answer_addition1 = "</tr><tr>"
+        td_width_text = ' width="100%"'
+        additional_breaks = ""
     for j in data['answers']:
-        ret1 += "\t<td width=\"20%\" class=\"mytd1\">[ ]&nbsp;&nbsp;{}</td>\n".format(j[1])
+        ret1 += "\t<td{} class=\"mytd1\">[ ]&nbsp;&nbsp;{}{}</td>{}\n".format(td_width_text, j[1], additional_breaks, long_answer_addition1)
         if j[0] == "1":
-            ret2 += "<td class=\"good mytd1\" width=\"20%\">[X]&nbsp;&nbsp;{}</td>\n".format(j[1])
+            ret2 += "<td class=\"good mytd1\"{}>[X]&nbsp;&nbsp;{}{}</td>{}\n".format(td_width_text, j[1], additional_breaks, long_answer_addition1)
         else:
-            ret2 += "<td width=\"20%\" class=\"mytd1\">[ ]&nbsp;&nbsp;{}</td>\n".format(j[1])
-    end1 = "\t</tr>\n\t</table>\n</tr>"
+            ret2 += "<td{} class=\"mytd1\">[ ]&nbsp;&nbsp;{}{}</td>{}\n".format(td_width_text, j[1], additional_breaks, long_answer_addition1)
+    end1 = "\t</tr>\n\t</table>\n<br /></tr>"
     ret1 += end1
     ret2 += end1
     return [ret1, ret2]
@@ -134,11 +154,12 @@ def write_html_files(qanda):
         #print("DEBUG: write_html_files(): qanda:({})".format(qanda))
     fileheader = myreadfile(Path("header.include.html"))
     filefooter = myreadfile(Path("footer.include.html"))
-    fileheader = re.sub('__UUID__', str(myuuid1), fileheader)
-    filefooter = re.sub('__UUID__', str(myuuid1), filefooter)
+    strmyuuid1 = str(myuuid1)
+    fileheader = re.sub('__UUID__', strmyuuid1, fileheader)
+    filefooter = re.sub('__UUID__', strmyuuid1, filefooter)
     file1content = fileheader
     file2content = fileheader
-    with open("test-candidate.html", "w", newline="\r\n") as ftc, open("test-hr.html", "w", newline="\r\n") as fth:
+    with open("test-{}-candidate.html".format(strmyuuid1), "w", newline="\r\n") as ftc, open("test-{}-hr.html".format(myuuid1), "w", newline="\r\n") as fth:
         cnt = 1
         for i in qanda:
             row_html = generate_html_row_code(cnt, i)
