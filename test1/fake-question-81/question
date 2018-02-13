@@ -1,1 +1,1 @@
-NAME Exporter Implements default import method for modulesSYNOPSIS In module YourModule.pm: package YourModule; require Exporter; @ISA qw(Exporter); @EXPORTOK qw(munge frobnicate); # symbols to export on reque
+ . - () , , , . , ., , , . , . ' ' . ::..:..---:..--- , :.. . :.~- # .: 2 (2). (.. " ".) . . - .: :. :.. , , ::..%% :. ( 2.8.0) :# 2009 , .# 2009 # 2009 ## - ( "");# . .## ; # .# .## ( , # .)## .

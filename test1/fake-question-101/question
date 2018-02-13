@@ -1,1 +1,1 @@
-To build libdwarf.a, type ./configure makeTo build libdwarf.so, type ./configure enableshared disablenonshared makeTo build both, type ./configure enableshared makeJanuary 30, 2013: libdwarf.h is no long
+ 2 - 2 2003-09-15 .2 2 
