@@ -1,1 +1,1 @@
-README for Lua 5.1See INSTALL for installation instructions.See HISTORY for a summary of changes since the last relea
+Sysfs Utilities Package Includes Libsysfs(v. 2.1.0) Contents 1. Introduction 2. How to Install 2.1 CaveatsKnown issues 3. Licenses 4. Reporting Bugs1. IntroductionThis package's purpose is to provide a set of utili

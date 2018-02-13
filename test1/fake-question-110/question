@@ -1,1 +1,1 @@
-Shadow SITESHomepage http:pkg
+NAME HTTP::Tiny A small, simple, correct HTTP1.1 clientVERSION version 0.033SYNOPSIS use HTTP::Tiny; my $response HTTP::Tiny

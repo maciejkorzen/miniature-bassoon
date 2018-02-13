@@ -1,1 +1,1 @@
-ABOUT THE ILMBASE LIBRARIES Half is a class that encapsulates our 16bit floa
+To build libdwarf.a, type .configure makeTo build libdwarf.so, type .configure enableshared disab

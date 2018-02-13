@@ -1,1 +1,1 @@
-The CLI (command line interface) SAPI has been introducedwith a goal of making PHP better at supporting the creation o
+stunnel overviewShort description The stunnel program is designed to work as an SSL encryption wrapper between remote client and local (inetdstartable) or remote servers. The goal is to facilitate SSL

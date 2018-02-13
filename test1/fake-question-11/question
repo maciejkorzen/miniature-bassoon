@@ -1,1 +1,1 @@
-kmod Linux kernel module handlingInformationMailing list: linuxmodules@vger.kernel.org (no subscription needed)Signed packages: http:www.kernel.orgpublinuxutilskernelkmodGit: git:git.kernel.orgpubscmutilskern
+The CACertificates package is based on the list providedby the Mozilla Foundation.This version of the package contains the following adjustments:(a)The following root CA certificate is included

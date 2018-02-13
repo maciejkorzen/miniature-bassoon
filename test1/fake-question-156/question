@@ -1,1 +1,1 @@
- \() \ \ ' ` \ \ \ ) ' \ ` ) () ( \\\ \, Authors: Tobias 
+aboutsocat is a relay for bidirectional data transfer between two independent datachannels. Each of these data channels may be a file, pipe, device (serial lineetc. or a pseudo terminal), a

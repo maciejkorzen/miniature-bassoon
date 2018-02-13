@@ -1,1 +1,1 @@
- README for GNU development toolsThis directory contains various GNU compilers, assemblers, linkers, debug
+This is strace, a system call tracer for Linux.strace is released under a Berkeleystyle license at the requestof Paul Kranenburg; see the file 

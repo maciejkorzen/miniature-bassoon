@@ -1,1 +1,1 @@
-gnomekeyring is a program that keep password and other secrets forusers. The library libgnomekeyring is used by applications to integratewith the gnome keyring syste
+This is strace, a system call tracer for Linux.strace is released under a Berkeleystyle license at the requestof Paul Kranenburg; see the file COPYING for details.See the file CREDIT

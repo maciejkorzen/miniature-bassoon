@@ -1,1 +1,1 @@
-NAME Net::HTTP Lowlevel HTTP connection (client)SYNOPSIS use Net::HTTP; my $s Net::HTTPnew(Host "www.perl.com") die $@; $swriterequest(GET "", 'UserAgent' "Mozilla5.0"); 
+$Id: README,v 1.3 19991011 13:31:04 stelian Exp $ This is a test release of dump 0.4. See the file C

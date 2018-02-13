@@ -1,1 +1,1 @@
-This is the file README for the gzip distribution.The GNU
+To build libdwarf.a, type .configure makeTo build libdwarf.so, type .configure enableshared disablenonshared makeTo build both, type .configure enable

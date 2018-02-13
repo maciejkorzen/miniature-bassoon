@@ -1,1 +1,1 @@
-This is the GNU implementation of sed, the Unix stream editor.See the NEWS file for a brief summary and the ChangeLog for more detailed descriptions of changes.See the 
+appp.sh is a script that is supposed to be used together with ExternalEditorfor Mozilla Thunderbird. It will let you include patches inline in emailsin an easy way.Usage: Generate the patch with git 

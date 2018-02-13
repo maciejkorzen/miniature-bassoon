@@ -1,1 +1,1 @@
-LIBTIRPC 0.1 FROM SUN'S TIRPCSRC 2.3 29 Aug 1994This package contains SunLib's implementation of transportindependentRPC (TIRPC) docum
+NAME LWP::MediaTypes guess media type for a file or a URLSYNOPSIS use LWP::MediaTypes qw(guessmediatype); $type guessmediatype("tmpfoo.gif");DESCRIP

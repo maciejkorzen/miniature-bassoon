@@ -1,1 +1,1 @@
-README: Tcl This is the Tcl 8.5.13 source distribution. http:tcl.sou
+NAME HTTP::Cookies HTTP cookie jarsSYNOPSIS use HTTP::Cookies; $cookiejar HTTP::Cookiesnew( file "$ENV{'HOME'}lwpcookies.dat", autosave 1, ); use LWP; my $browser LWP::UserAgentnew; $browsercookiej

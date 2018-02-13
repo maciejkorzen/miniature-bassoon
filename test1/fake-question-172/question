@@ -1,1 +1,1 @@
-PyGObjectOriginal authors: James Henstridge james@daa.com.au Johan Dahlin johan@gnome.orgCurrent maintainers: Tomeu Vizoso
+This directory contains the ATK library.For more information about ATK and accessibility in GNOME, see: http:projects.gnome.orgaccessibilityDependenciesATK requires GLib 2.31.2. Informatio

@@ -1,1 +1,1 @@
-threads::shared version 1.43This module needs Perl 5.8.0 or later compi
+Introduction to iniparseiniparse is a INI parser for Python which is: Compatible with ConfigParser: Backward compatible implementations of ConfigParser, RawConfigParser, and SafeConfigParser ar

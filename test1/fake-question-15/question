@@ -1,1 +1,1 @@
-General InformationFUSE (Filesystem in Userspace) is a simple interface for userspaceprograms to export a virtual filesystem to the Linux kernel. FUSEalso aims to provide a secure method for non privileged users tocreat
+This directory contains various modules for Emacs support.To make the modules available to Emacs, you should add this directoryto your loadpath, and then require the modules you want. 

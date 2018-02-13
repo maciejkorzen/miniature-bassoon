@@ -1,1 +1,1 @@
-20081211: NetworkManager
+Socket6$Id: README,v 1.11 20080127 08:25:57 ume Exp $1. AbstractThis module supports getaddrinfo() and getnameinfo() to intend toenable protocol independent programing.If your envir

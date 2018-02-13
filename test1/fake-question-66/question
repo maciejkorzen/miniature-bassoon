@@ -1,1 +1,1 @@
-This is a set of utilities for Linux networking.Information: h
+NAME Module::Pluggable automatically give your module the ability to have pluginsSYNOPSIS Simple use Module::Pluggable package MyClass; use Module::Pluggabl

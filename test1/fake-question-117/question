@@ -1,1 +1,1 @@
-Pango is a library for layout and rendering of text, with an emphasison internationalization. Pango can be used anywhere that text layoutis needed; however, most of th
+NAMECarp alternative warn and die for modulesDESCRIPTIONThe Carp routines are useful in your own modules because they act likedie() or wa

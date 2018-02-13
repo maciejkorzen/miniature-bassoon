@@ -1,1 +1,1 @@
- GeoIP 1.5.0 1.5.0geoip
+Environment VariablesLSBDBHOST The name of the host which hosts the [[MySQL]] database serverLSBDB The name of the LSB [[MySQL]] databaseLSBUSER The name of the

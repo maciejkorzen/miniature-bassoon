@@ -1,1 +1,1 @@
-InstallationSee INSTALL file.ConfigurationSee docdocumentation.txt or http:wiki2.dovecot.orgRFCs conformedemail: 822 Standard for ARPA Internet Text Messages 2822 Internet Message Format (
+NAME HTTP::Cookies HTTP cookie jarsSYNOPSIS use HTTP::Cookies; $cookiejar HTTP::Cookiesnew( file "$ENV{'HOME'}lwpcookies.dat", autosave 1, ); use LWP; my $browser LWP::UserAgentne

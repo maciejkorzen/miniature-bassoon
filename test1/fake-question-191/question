@@ -1,1 +1,1 @@
-Pod::LaTeX convert Pod to latex using Pod::ParserThis is version 0.60 of Pod::LaTeX. This module can be used toconvert pod data to latex. It uses the standard Pod::Parser m
+The elfutils project provides libraries and tools for ELF files and DWARF data.The project home 

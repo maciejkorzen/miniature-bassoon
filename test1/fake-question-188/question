@@ -1,1 +1,1 @@
-The purpose is to cause as few changes to the code you are trying to port aspossible. Some changes are inevitable, particularly when crypto outside ofSSL is being used, but for a generalpurpose SSL 
+NetLibIDN version 0.12This module provides Perl bindings for GNU Libidn by Simon Josefsson(http:www.gnu.orgsoftwarelibidn) in way that was heavily inspiredby PHP bindings 

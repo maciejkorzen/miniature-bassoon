@@ -1,1 +1,1 @@
-NAME ExtUtils::ParseXS converts Perl XS code into C codeSYNOPSIS use ExtUtils::ParseXS qw(processfile); processfile( filena
+XML toolkit from the GNOME projectFull documentation is available online at http:xmlsoft.orgThis code is released under the MIT Licence see the Copyright file.To build on an Unixised setup: .configure ; make ; ma

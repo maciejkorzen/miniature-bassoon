@@ -1,1 +1,1 @@
- GNU Parallel READMEPlease send problems and feedback to bugparallel@gnu.org. Present
+Fatal and autodieThis distribution provides 'autodie', a lexical equivalent of'Fatal'. This distribution REQUIRES Perl 5.8 or later to run.INSTALLATIONTo install this module, run the followi

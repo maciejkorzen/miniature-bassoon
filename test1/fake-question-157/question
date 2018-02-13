@@ -1,1 +1,1 @@
- Damage X Damage Extension Version 1.1 20070104This package contains the library for the X Damage extension.Keith Packardkeithp@keithp.comAll questions regarding this software should be di
+LIBATASMART ATA S.M.A.R.T. Reading and Parsing LibraryGIT: git:git.0pointer.delibatasmart.gitGITWEB: http:git.0pointer.de?plibatasmart.gitNOTES: As the name suggests libatasmart only does ATA S.M.A.R.T., there 

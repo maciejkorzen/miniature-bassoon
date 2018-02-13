@@ -1,1 +1,1 @@
-P11KITProvides a way to load and enumerate PKCS#11 modules. Provides a standardconfiguration setup for installing PKCS#11 modules in such a way that they're
+This directory contains the 3.82 release of GNU Make.See the file NEWS for the uservisible changes from previous releases.

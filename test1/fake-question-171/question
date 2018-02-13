@@ -1,1 +1,1 @@
-NAME Net::HTTP Lowlevel HTTP connection (client)SYNOPSIS use Net::HTTP; my $s Net::HTTPnew(Host "www.perl.com") die $@; $swriterequest(GET "
+CLucene READMECLucene is a C++ port of Lucene.It is a highperformance, fullfeatured text search engine written in C++. CLucene is faster than luceneas it is writt

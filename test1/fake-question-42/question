@@ -1,1 +1,1 @@
-OVERVIEWThe HTMLParser distribution is is a collection of modules that parseand extract information from HTM
+InstallYou will need an ANSI C compiler (like gcc) to compile this package.Just type `make', followed by `make insta

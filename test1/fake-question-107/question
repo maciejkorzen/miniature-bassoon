@@ -1,1 +1,1 @@
-Net::DNS Perl DNS Resolver ModuleTABLE OF CONTENTS1. Description2. Availability3. Prerequisites4. Installation5. Running Tests6. Demonstration Scripts7. Dynamic Updates8. S
+threads::shared version 1.43This module needs Perl 5.8.0 or later compiled with USEI

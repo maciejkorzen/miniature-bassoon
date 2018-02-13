@@ -1,1 +1,1 @@
-DescriptionGNU ed is a lineoriented text editor. It is used to create, display,modify and otherwise manipulate tex
+NAME Net::Daemon Perl extension for portable daemonsSYNOPSIS # Create a subclass of Net::Daemon require Net::Daemon; package MyDaemon; @MyDaem

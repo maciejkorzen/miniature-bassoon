@@ -1,1 +1,1 @@
-Config::GrammarConfig::Grammar is a Perl module to parse configuration files byfollowing a grammar,
+This is libsndfile, 1.0.25libsndfile is a library of C routines for reading and writingfiles containing sampled audio data.The src directory contains the source code for libra

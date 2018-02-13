@@ -1,1 +1,1 @@
-GNU PartedGNU Parted is a program for manipulating partition tables.WARNING: USING PARTED TO PERFORM FILE SYSTEM OPERATIONS IS NO LONGER SUPPORTEDParted (post2.4) no longer has the ability to 
+This is strace, a system call tracer for Linux.strace is released under a Berkeleystyle license at the requestof Paul Kranenburg; see 

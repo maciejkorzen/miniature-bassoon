@@ -1,1 +1,1 @@
- README for file(1) Command @(#) $Fil
+This is a small package that may be depended on by any bootloaderinstaller package to detect other filesystems with operating systems onthem, and work out how to boot other linux installs.osproberA

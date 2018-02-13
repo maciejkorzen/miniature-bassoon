@@ -1,1 +1,1 @@
-The CLI (command line interface) SAPI has been introducedwith a goal of making PHP better at supporting the creation of stand alone applications.It is based on CGI SAPI wit
+NAME Net::Daemon Perl extension for portable daemonsSYNOPSIS # Create a subclass of Net::Daemon require Net::Daemon; packag

@@ -1,1 +1,1 @@
-This is kbd1.15.3.tar.gzThis package contains keytable files and keyboard utilities compatiblewith kernel version 1.1.5
+Text::Soundex Implementation of the soundex algorithm.Basic Usage: Soundex is used to do a one way transformation of a name, converting a cha

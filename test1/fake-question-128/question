@@ -1,1 +1,1 @@
-INTRODUCTIONThis module implements a Perl interface to the Gnome libxml2 library whichprovides interfaces for parsing and manipulating XML files. This module allowsPerl programmers to make use o
+Syntax highlighting for git commit messages, config files, etc. isincluded with the vim distribution as of vim 7.

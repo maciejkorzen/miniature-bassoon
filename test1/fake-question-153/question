@@ -1,1 +1,1 @@
-Time::HiRes module: High resolution time, sleep, and alarm.Implement uslee
+ABOUT THE OPENEXR LIBRARIESIlmImf is our "EXR" file format for storing 16bit FP images. Libraries inthis package depend on the IlmBase library.See the IlmImfExamples directory for some code that demonstrates howto u

@@ -1,1 +1,1 @@
-Socket6$Id: README,v 1.11 20080127 08:25:57 ume Exp $1. AbstractThis module supports getaddrinfo() and getnameinfo() to intend toenable protocol independent programing.If your environment supports IPv6, I
+This package contains slip.dbus.service.Object which has these features:1) It easily allows to create dbusactivated serv
