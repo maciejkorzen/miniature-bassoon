@@ -35,6 +35,8 @@ from tabulate import tabulate
 import uuid
 import re
 from bs4 import BeautifulSoup
+import getopt
+import sys
 
 #print("test-generator")
 
@@ -173,18 +175,26 @@ def write_html_files(qanda):
         ftc.write(file1content)
         fth.write(file2content)
 
-def process_questions():
-    mytestdir1 = "test1"
-    dirs1 = sorted(Path('./{}'.format(mytestdir1)).glob('*'))[:100]
+def process_questions(dirs):
     if mydebug:
-        print("DEBUG: process_questions(): start")
+        print("DEBUG: process_questions(): dirs:({}): start".format(dirs))
+    dirs2 = []
+    for dir1 in dirs:
+        for entry1 in Path('./{}'.format(dir1)).glob('*'):
+            if mydebug:
+                print("DEBUG: process_questions(): entry1({})".format(entry1))
+            dirs2.append(str(entry1))
+        #dirs2.append(Path('./{}'.format(mytestdir1)).glob('*'))
     all_questions_and_answers = []
-    shuffle(dirs1)
-    for child in dirs1:
+    shuffle(dirs2)
+    dirs2 = dirs2[:100]
+    if mydebug:
+        print("DEBUG: process_questions(): dirs2:({})".format(dirs2))
+    for child in dirs2:
         if mydebug:
-            print("DEBUG: process_questions(): child.name:({})".format(child.name))
-        myquestion = myreadfile(Path(mytestdir1) / child.name / 'question')
-        myanswers = read_answer_files(Path(mytestdir1) / child.name)
+            print("DEBUG: process_questions(): child:({})".format(child))
+        myquestion = myreadfile(Path(child) / 'question')
+        myanswers = read_answer_files(Path(child))
         e1 = {}
         e1['question'] = myquestion
         e1['answers'] = myanswers
@@ -198,6 +208,35 @@ def process_questions():
 #    q = x / 'question'
 #    print("q:({})".format(q))
 #    read_question_file(q)
-process_questions()
+
+def usage():
+    print("test-generator.py -d DIR1 [-d DIR2 [ -d DIR3 [...]]]")
+
+def program_start(args):
+    dirs = []
+    try:
+        optlist, args = getopt.getopt(args, 'd:')
+    except getopt.GetoptError as err:
+        # print help information and exit:
+        print(str(err))  # will print something like "option -a not recognized"
+        usage()
+        sys.exit(2)
+    for o, a in optlist:
+        if o == "-d":
+            dirs.append(a)
+        elif o in ("-h", "--help"):
+            usage()
+            sys.exit()
+        else:
+            assert False, "unhandled option"
+    if len(dirs) < 1:
+        print("Error! At lease one directory name is required.")
+        usage()
+        sys.exit(2)
+    if mydebug:
+        print("DEBUG: program_start(): dirs:({})",format(dirs))
+    process_questions(dirs)
+
+program_start(sys.argv[1:])
 
 # vim: set shiftwidth=4 expandtab smarttab softtabstop=4:
