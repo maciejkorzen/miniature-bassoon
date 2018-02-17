@@ -133,7 +133,6 @@ def generate_html_row_code(cnt, data):
     ret2 = ret1
     long_answer_addition1 = ""
     td_width_text = ' width="20%"'
-    #additional_breaks = "<br /><br />"
     additional_breaks = ""
     if we_have_long_answer(data['answers']):
         long_answer_addition1 = "</tr><tr>"
@@ -170,8 +169,8 @@ def write_html_files(qanda):
             cnt += 1
         file1content += filefooter
         file2content += filefooter
-        file1content = BeautifulSoup(file1content, "html.parser").prettify()
-        file2content = BeautifulSoup(file2content, "html.parser").prettify()
+        #file1content = BeautifulSoup(file1content, "html.parser").prettify()
+        #file2content = BeautifulSoup(file2content, "html.parser").prettify()
         ftc.write(file1content)
         fth.write(file2content)
 
