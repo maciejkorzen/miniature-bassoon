@@ -34,7 +34,7 @@ from pathlib import Path
 from tabulate import tabulate
 import uuid
 import re
-from bs4 import BeautifulSoup
+#from bs4 import BeautifulSoup
 import getopt
 import sys
 
