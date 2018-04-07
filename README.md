@@ -23,7 +23,7 @@ _UUID_ is random ID. Each test has this UUID in file name and inside document co
 You can generate some tests in advance and give them to HR. They will print them and hand them out to candidates when they arrive.
 
 # Limitations
-Remeber that this test generator is not a ultimate solution for testing candidates!
+Remember that this test generator is not a ultimate solution for testing candidates!
 It only helps in efficient way to do basic technical screening process.
 
 # Structure of questions database
@@ -35,7 +35,7 @@ In the question subdirectory you have to create directory named `answers`.
 In `answers` directory you have to create directory named `1`.
 In `answers/1` directory you have to create one file. This file's name is irrelevant. It can be anything. Inside this file you have to put correct answer.
 In `answers` directory you have to create directory named `0`.
-In `ansers/0` directory you have to create four files. Names of files are irrelevant. Name them whatever you want. Inside this files you have to put incorrect answers.
+In `answers/0` directory you have to create four files. Names of files are irrelevant. Name them whatever you want. Inside this files you have to put incorrect answers.
 In files with question and answers you can use HTML. Files' content will be included in HTML document.
 
 You can find example of questions database in `test2-real-questions` directory.
