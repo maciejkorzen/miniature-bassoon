@@ -1,0 +1,1 @@
+<span style="font-family: Monospace">echo &gt; /etc/resolv.conf</span>
