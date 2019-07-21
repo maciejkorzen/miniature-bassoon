@@ -141,14 +141,18 @@ def generate_html_row_code(cnt, data):
     ret1 += "</tr>\n"
     ret1 += "<tr>\n"
     ret2 = ret1
+    answer_counter = 0
     for j in data['answers']:
         good_addition = ""
-        checkbox_code = "&#9744"
+        checkbox_code = "&#9744;"
         if j[0] == "1":
                 good_addition = " class=\"good\""
-                checkbox_code = "&#9745"
-        ret1 += "<td>&#9744 {}</td>{}\n".format(j[1], long_answer_addition1)
+                checkbox_code = "&#9745;"
+        if answer_counter > 3:
+            long_answer_addition1 = ""
+        ret1 += "<td>&#9744; {}</td>{}\n".format(j[1], long_answer_addition1)
         ret2 += "<td{}>{} {}</td>{}\n".format(good_addition, checkbox_code, j[1], long_answer_addition1)
+        answer_counter += 1
     end1 = "</tr>"
     end1 += "</table>"
     ret1 += end1
